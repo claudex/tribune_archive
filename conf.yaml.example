@@ -1,0 +1,10 @@
+default:
+    format: "raw"
+    date: "%Y%m%d%H%M%S"
+    timezone: "Europe/Paris"
+
+    sql: 'postgresql:///tribunearchive'
+
+dlfp:
+    format: "encoded"
+    backend: "http://linuxfr.org/board/index.xml"
